@@ -6,12 +6,13 @@ const goerli = require("./tokens/goerli.json");
 const kovan = require("./tokens/kovan.json");
 const polygon = require("./tokens/polygon.json");
 const mumbai = require("./tokens/mumbai.json");
+const neon_devnet = require('./tokens/neon_devnet.json')
 const bridgeUtils = require('@uniswap/token-list-bridge-utils');
 
 module.exports = function buildList() {
   const parsed = version.split(".");
   const l1List = {
-    name: "Uniswap Labs Default",
+    name: "Opus Fi Default",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -20,8 +21,8 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI: "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
-    keywords: ["uniswap", "default"],
-    tokens: [...mainnet, ...ropsten, ...goerli, ...kovan, ...rinkeby, ...polygon, ...mumbai]
+    keywords: ["opus", "default"],
+    tokens: [...mainnet, ...ropsten, ...goerli, ...kovan, ...rinkeby, ...polygon, ...mumbai, ...neon_devnet]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
         if (t1.chainId === t2.chainId) {
