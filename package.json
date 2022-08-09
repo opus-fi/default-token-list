@@ -1,12 +1,12 @@
 {
   "name": "@opus-fi/default-token-list",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "◦ The Opus Finance default token list",
   "main": "build/opusfi-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
     "build": "rimraf build && mkdir -p build && node src/write.js > build/opusfi-default.tokenlist.json",
-    "prepublishOnly": "npm test && npm run build"
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "build/opusfi-default.tokenlist.json"
@@ -29,11 +29,11 @@
   "homepage": "https://github.com/opus-fi/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
-    "@uniswap/token-lists": "^1.0.0-beta.29",
     "@uniswap/token-list-bridge-utils": "^1.0.8",
+    "@uniswap/token-lists": "^1.0.0-beta.29",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
-    "mocha": "^8.0.1",
+    "mocha": "^10.0.0",
     "rimraf": "^3.0.2"
   }
 }
