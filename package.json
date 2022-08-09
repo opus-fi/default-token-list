@@ -1,8 +1,8 @@
 {
   "name": "@opus-fi/default-token-list",
   "version": "4.1.0",
-  "description": "◦ The Uniswap default token list",
-  "main": "build/uniswap-default.tokenlist.json",
+  "description": "◦ The Opus Finance default token list",
+  "main": "build/opusfi-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
     "build": "rimraf build && mkdir -p build && node src/write.js > build/opusfi-default.tokenlist.json",
