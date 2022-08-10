@@ -1,6 +1,6 @@
 {
   "name": "@opus-fi/default-token-list",
-  "version": "4.1.1",
+  "version": "1.0.2",
   "description": "◦ The Opus Finance default token list",
   "main": "build/opusfi-default.tokenlist.json",
   "scripts": {
@@ -21,7 +21,7 @@
     "token",
     "list"
   ],
-  "author": "Moody Salem",
+  "author": "Moody Salem, 0xLaxes",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/opus-fi/default-token-list/issues"
