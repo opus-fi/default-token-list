@@ -5,7 +5,7 @@
     "symbol": "WNEON",
     "decimals": 18,
     "chainId": 245022926,
-    "logoURI": "https://raw.githubusercontent.com/neonscan/token-list/main/assets/0xf8ad328e98f85fccbf09e43b16dcbbda7e84beab.png"
+    "logoURI": "https://raw.githubusercontent.com/opus-fi/opus-assets/main/tokens/0xf8ad328e98f85fccbf09e43b16dcbbda7e84beab/logo.png"
   },
   {
     "name": "USDC",
@@ -13,7 +13,7 @@
     "symbol": "USDC",
     "decimals": 18,
     "chainId": 245022926,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/opus-fi/opus-assets/main/tokens/0x2578c6c1ac883443388edd688ca10e87d088bfa8/logo.png"
   },
   {
     "name": "Wrapped SOL",
@@ -21,7 +21,7 @@
     "symbol": "wSOL",
     "decimals": 18,
     "chainId": 245022926,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/opus-fi/opus-assets/main/tokens/So11111111111111111111111111111111111111112/logo.png"
   },
   {
     "name": "Wrapped BTC (Wormhole)",
@@ -29,6 +29,14 @@
     "symbol": "wWBTC",
     "decimals": 18,
     "chainId": 245022926,
-    "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/opus-fi/opus-assets/main/tokens/0x6fbf8f06ebce724272813327255937e7d1e72298/logo.png"
+  },
+  {
+    "name": "USDT",
+    "address": "0x0a5bd0108227b3dfec64199d6939841eecf47a8e",
+    "symbol": "USDT",
+    "decimals": 18,
+    "chainId": 245022926,
+    "logoURI": "https://raw.githubusercontent.com/opus-fi/opus-assets/main/tokens/0x0a5bd0108227b3dfec64199d6939841eecf47a8e/logo.png"
   }
 ]

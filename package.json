@@ -1,6 +1,6 @@
 {
   "name": "@opus-fi/default-token-list",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "◦ The Opus Finance default token list",
   "main": "build/opusfi-default.tokenlist.json",
   "scripts": {
