@@ -11,7 +11,7 @@
     "name": "USDC",
     "address": "0x2578c6c1ac883443388edd688ca10e87d088bfa8",
     "symbol": "USDC",
-    "decimals": 18,
+    "decimals": 6,
     "chainId": 245022926,
     "logoURI": "https://raw.githubusercontent.com/opus-fi/opus-assets/main/tokens/0x2578c6c1ac883443388edd688ca10e87d088bfa8/logo.png"
   },
@@ -19,7 +19,7 @@
     "name": "Wrapped SOL",
     "address": "0xaede7ae447d63f0d2020621eacf759e539cbfadd",
     "symbol": "wSOL",
-    "decimals": 18,
+    "decimals": 9,
     "chainId": 245022926,
     "logoURI": "https://raw.githubusercontent.com/opus-fi/opus-assets/main/tokens/So11111111111111111111111111111111111111112/logo.png"
   },
@@ -27,7 +27,7 @@
     "name": "Wrapped BTC (Wormhole)",
     "address": "0x6fbf8f06ebce724272813327255937e7d1e72298",
     "symbol": "wWBTC",
-    "decimals": 18,
+    "decimals": 8,
     "chainId": 245022926,
     "logoURI": "https://raw.githubusercontent.com/opus-fi/opus-assets/main/tokens/0x6fbf8f06ebce724272813327255937e7d1e72298/logo.png"
   },
@@ -35,7 +35,7 @@
     "name": "USDT",
     "address": "0x0a5bd0108227b3dfec64199d6939841eecf47a8e",
     "symbol": "USDT",
-    "decimals": 18,
+    "decimals": 6,
     "chainId": 245022926,
     "logoURI": "https://raw.githubusercontent.com/opus-fi/opus-assets/main/tokens/0x0a5bd0108227b3dfec64199d6939841eecf47a8e/logo.png"
   }
